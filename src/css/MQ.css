@@ -22,3 +22,10 @@
         height: 60%;
     }
 }
+
+button:hover{
+    background-color: white;
+    border-color: rgb(17, 156, 255);
+    color: rgb(17, 156, 255);
+    cursor: pointer;
+}
