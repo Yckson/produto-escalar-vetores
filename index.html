@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto Escalar</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <div class="main-page">
         <h2>Calculadora de Produto Escalar</h2>
          <form>
-            <span>(</span>
-            <input type="number" name="" id="v1x" class="vetor">
-            <input type="number" name="" id="v1x" class="vetor">
+            
+            <div class="v">
+                <span>(</span>
+                <input type="number" name="" id="v1x" class="vetor" placeholder="Vx" aria-controls="false" required>
+                <input type="number" name="" id="v1y" class="vetor" placeholder="Vy" required>
+                <input type="number" name="" id="v1z" class="vetor" placeholder="Vz" required>
+                <span>) </span>
+            </div>
+            <span> ⋅ </span>
+            <div class="v">
+                <span> (</span>
+                <input type="number" name="" id="v2x" class="vetor" placeholder="Ux" required>
+                <input type="number" name="" id="v2y" class="vetor" placeholder="Uy" required>
+                <input type="number" name="" id="v2z" class="vetor" placeholder="Uz" required>
+                <span>)</span>
+            </div>
             <button type="submit">Calcular</button>
          </form>
+         <div class="resposta"></div>
     </div>
     <script src="src/js/main.js"></script>
 </body>
