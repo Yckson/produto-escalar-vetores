@@ -11,7 +11,7 @@ function getValues() {
 
 function writeAnswer(value){
     document.querySelector("div.resposta").innerHTML = null;
-    document.querySelector('div.resposta').innerHTML = 'Respota: ' + value;
+    document.querySelector('div.resposta').innerHTML = 'Resposta: ' + value;
 }
 
 
